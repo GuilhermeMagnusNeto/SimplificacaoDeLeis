@@ -1,6 +1,7 @@
+import React from 'react';
 import './App.css';
 
-function App() {
+function App(){
   return (
     <div className="app">
       <div id="pergunta">
@@ -8,7 +9,7 @@ function App() {
         <form id='formulario'>
           <input type='text' id='caixaDePesquisa' placeholder='Escreva sua duvida aqui '></input>
           <button type='submit' id='botao'>Pesquisar</button>
-          <p id='textoDuvida'>Em dúvida de <a href='comoFunciona.js' id='link'>como funciona?</a></p>
+          <p id='textoDuvida'>Em dúvida de <a href='' id='link'>como funciona?</a></p>
         </form>
       </div>
       <div id='localDaResposta'>
