@@ -4,7 +4,6 @@ from flask_restful import Api, Resource
 from flask_cors import CORS
 from html import unescape
 import openai
-import codecs
 
 app = Flask(__name__)
 api = Api(app)
